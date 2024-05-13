@@ -7,8 +7,8 @@ on:
     branches: [ "main" ]
 
 env:
-  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/site-interesses-dotnet8-azureeventhubs
-  DIR_WEBAPP: './APIHoraro'
+  IMAGE_DOCKERHUB: ${{ secrets.DOCKERHUB_USERNAME }}/apihorario-cache-redis
+  DIR_WEBAPP: './APIHorario'
   
 jobs:
 
